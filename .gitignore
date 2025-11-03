@@ -1,0 +1,93 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# API Keys and Secrets (common patterns)
+*.key
+*.pem
+.env
+.env.local
+secrets.txt
+config.json
+
+# Certificate files
+*.crt
+# *.cer
+# *.pem
+# *.p12
+# *.pfx
+
+# Generated reports
+certificate_comparison_report_*.md
+certificate_comparison_report.md
+*.md.bak
+
+# Certificate text outputs (if generated)
+*.txt
+!requirements.txt
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+*:Zone.Identifier
+Zone.Identifier
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
